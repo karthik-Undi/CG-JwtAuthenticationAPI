@@ -68,7 +68,7 @@ namespace JwtAuthenticationApi.Repository
             }
             else
             {
-                if (Username=="Admin" && password=="admin")
+                if (Username=="Admin@gmail.com" && password=="admin")
                 {
                     var tokenHandler = new JwtSecurityTokenHandler();
                     var key = Encoding.ASCII.GetBytes(tokenKey);
